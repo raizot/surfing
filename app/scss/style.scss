@@ -25,10 +25,10 @@
     bottom: 116px;
     text-align: right;
 }
-.slider-item__info-suptitle{
+.slider-item__info-subtitle{
     margin-bottom: 5px;
 }
-.slider-item__info-suptext{
+.slider-item__info-subtext{
     margin-bottom: 8px;
 }
 .slider-item__info-title{
@@ -185,12 +185,64 @@ margin-bottom: 20px;
 }
 .surf{
     padding: 160px 0 210px;
+    background-image: url(../images/surf-bg-pinter.png);
+    background-position: right 200px;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
+.surf__subtitle{
+    text-align: right;
+    padding-right: 80px;
+    margin-top: -86px;
+}
+.surf-slider{
+    padding-top: 110px;
+    .slider-arrows{
+        top: 50px;
+        opacity: 0.25;
+    }
+}
+.surf-box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__inner{
+        min-height: 750px;
+        background: rgba(#1C2121,0.85);
+        position: relative;
+    }
+}
+.surf-box__inner-title{
+font-weight: 800;
+font-size: 40px;
+line-height: 36px;
+padding: 72px 0 0  40px;
+width: 140px;
 
-
-
-
-
+}
+.surf-box__inner-location{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    width: 0;
+    height: 0;
+    white-space: nowrap;
+    span{
+        font-weight: 100;
+    }
+}
+.surf-box__inner-btn{
+bottom: 0;
+position: absolute;
+text-align: center;
+left:0;
+right:0;
+}
 
 
 
