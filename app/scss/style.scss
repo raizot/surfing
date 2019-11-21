@@ -11,7 +11,7 @@
 .header__slider{
     &-item {
         height: 100vh;
-        background-image: url(../images/header_bg.jpg);
+        background-image: url(images/header_bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -151,7 +151,7 @@ margin-bottom: 20px;
         position: absolute;
         width: 11px;
         height: 13px;
-        background-image: url(../images/marker.svg);
+        background-image: url(images/marker.svg);
         left: 0;
         top: 0;
     }
@@ -185,7 +185,7 @@ margin-bottom: 20px;
 }
 .surf{
     padding: 160px 0 120px;
-    background-image: url(../images/surf-bg-pinter.png);
+    background-image: url(images/surf-bg-pinter.png);
     background-position: right 200px;
     background-repeat: no-repeat;
     background-size: auto;
@@ -275,7 +275,7 @@ display: none;
 .slider-map{
     max-width: 1200px;
     min-height: 635px;
-    background-image: url(../images/world-map-dots.png);
+    background-image: url(images/world-map-dots.png);
     background-repeat: no-repeat;
     box-sizing: cover;
     background-position: center;
@@ -388,7 +388,7 @@ display: none;
         &::before{
         content: "";
         position: absolute;
-        background-image: url(../images/mini-marker.svg);
+        background-image: url(images/mini-marker.svg);
         width: 14px;
         height: 17px;
         box-sizing: cover;
